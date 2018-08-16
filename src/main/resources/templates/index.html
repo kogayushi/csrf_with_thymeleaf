@@ -1,0 +1,19 @@
+<!doctype html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8" />
+    <title>Title</title>
+</head>
+<body>
+
+<h6>"th:action"なし</h6>
+<form action="/#">
+    <input type="text" />
+</form>
+
+<h6>"th:action"あり</h6>
+<form action="/" th:action="@{/#}" >
+    <input type="text" />
+</form>
+</body>
+</html>
